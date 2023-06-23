@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스토리지를 이용하여 자동 로그인 기능 생성</title>
+</head>
+<script>
+    function logins(){
+
+        if(frm.mid.value = ""){
+            alert("아이디를 입력하세요")
+        }
+        else{
+            var aa = document.getElementById("ck");
+            if(aa.checked == true){
+                localStorage.setItem("userid",frm.mid.value);
+            }
+        }
+    }
+</script>
+
+<body>
+    <form onsubmit="return logins()" id="frm" method="post" action="http://naver.com">
+        아이디 : <input type="text" name="mid" id="mid"><br>
+        <input type="submit" value="로그인">
+        <input type="checkbox" id="ck" onclick="idck()">아이디 저장
+    </form>
+</body>
+
+</html>

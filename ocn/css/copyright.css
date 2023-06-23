@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+.copyright1{
+    width: 1200px;
+    height: 155px;
+    margin: 0 auto;
+}
+.copymenu{
+    width: inherit;
+    height: 45px;
+    border-top: 1px solid black;
+    line-height: 45px;
+    text-align: center;
+}
+.copymenu > li {
+    float: left;
+}
+.copymenu > li:nth-child(1){
+    width: 100px;
+
+}
+.copymenu > li:nth-child(2){
+    width: 620px;
+    height: 45px;
+    text-align: left;
+    text-indent: 10px;
+    font-size: 13px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #9f9f9f;
+    overflow: hidden;
+}
+.somenu{
+    position: relative;
+}
+.copymenu > li:nth-child(3){
+    position: relative;
+    width: 170px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 135px;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding-right: 30px;
+}
+em{
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+.copymenu > li:nth-child(4){
+    position: relative;
+    width: 170px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding-right: 30px;
+}
+.somenu > span{
+    width: 620px;
+    height: 45px;
+}
+
+.brandBoxChild{
+    position: absolute;
+    bottom: 34px;
+    border: 1px solid black;
+    display: none;
+    left: -1px;
+    width: 170px;
+    background-color: white;
+    color: black;
+    border-bottom: 0;;
+}
+.brandBoxChild>span{
+    text-align: left;
+    text-indent: 13px;
+    cursor: pointer;
+}
+.brandBox1{
+    cursor: pointer;
+}
+.brandBox1 > span{
+    width: 170px;
+    height: 35px;
+   
+}
+.brandBoxChild2{
+    position: absolute;
+    bottom: 34px;
+    border: 1px solid black;
+    display: none;
+    width: 170px;
+    left: -1px;
+    background-color: white;
+    color: black;
+    border-bottom: 0;
+}
+.brandBoxChild2>span{
+    text-align: left;
+    text-indent: 13px;
+    cursor: pointer;
+}
+.brandBox2{
+    cursor: pointer;
+}
+.brandBox2 > span{
+    width: 170px;
+    height: 35px;
+}
+
+
+/* bottom menu */
+
+.bottomMenu{
+    width: 1200px;
+    height: 110px;
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+    background-color: #CCCCCC;
+    font-size: 12px;
+}
+.bottomMenu > span{
+    height: 30px;
+    line-height: 30px;
+}

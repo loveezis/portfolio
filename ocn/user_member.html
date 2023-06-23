@@ -1,0 +1,120 @@
+<meta charset="utf-8">
+<script src="./js/user_member.js?v=5" defer></script>
+<script src="./js/jquery.js"></script>
+<script src="//d1p7wdleee1q2z.cloudfront.net/post/search.min.js" defer></script>
+<link rel="stylesheet" type="text/css" href="./css/user_member.css">
+<section class="memberagree">
+    <ol>
+        <li>MEMBER-SHIP</li>
+    </ol>
+    <ol>
+        <li>이용약관 동의</li>
+        <li>
+            <img src="./images/step_on.png">
+        </li>
+        <li>정보입력</li>
+        <li>
+            <img src="./images/step_on.png">
+        </li>
+        <li>가입완료</li>
+    </ol>
+</section>
+<form id="join" method="post" action="memberok.php" enctype="application/x-www-form-urlencoded">
+    <section class="memberInfoMain">
+        <div class="infoHeader">
+            <p>기본정보</p>
+        </div>
+        <input type="hidden" name="m_agree1" value="">
+        <input type="hidden" name="m_agree2" value="">
+        <ul class="infoIdmenu">
+            <li>아이디</li>
+            <li>
+                <input type="text" name="m_userid">
+            </li>
+            <li>
+                <input type="button" value="중복체크" onclick="memberid_ck()">
+            </li>
+            <li>
+                ※ 아이디는 최소 5자 이상입니다.
+            </li>
+        </ul>
+        <ul class="infopw1">
+            <li>패스워드</li>
+            <li>
+                <input type="password" name="m_userpw">
+            </li>
+            <li>
+                ※ 패스워드는 최소 6자 이상입니다.
+            </li>
+        </ul>
+        <ul class="infopw2">
+            <li>동일한 패스워드</li>
+            <li>
+                <input type="password" id="checkpw">
+            </li>
+            <li>
+                ※ 동일한 패스워드를 입력하세요.
+            </li>
+        </ul>
+        <ul class="infoname">
+            <li>고객명</li>
+            <li>
+                <input type="text" name="m_usernm" pattern="/^[a-bA-Z-가-힣0-9]{5,}$">
+            </li>
+        </ul>
+        <ul class="infoemail">
+            <li>이메일</li>
+            <li>
+                <input type="text" name="m_usermail">
+            </li>
+            <li>
+                <select id="mselect" onchange="mail_input(this.value)" class="infoSelect">
+                    <option value="">직접입력</option>
+                    <option value="naver.com">naver.com</option>
+                    <option value="nate.com">nate.com</option>
+                    <option value="google.com">google.com</option>
+                </select>
+            </li>
+            <li>
+                <input type="checkbox" name="m_email" value="Y">
+                정보/이벤트 SMS 수신에 동의합니다.
+            </li>
+        </ul>
+        <ul class="infophone">
+            <li>연락처</li>
+            <li>
+                <input type="text" name="m_usertel">
+            </li>
+            <li>
+                ※ "-" 없이 입력하세요
+            </li>
+            <li>
+                <input type="checkbox" name="m_sms" value="Y">
+                SMS 수신에 동의합니다.
+            </li>
+        </ul>
+        <ul class="infoAdress">
+            <li>주소</li>
+            <li>
+                <input type="text" name="m_post" class="postcodify_postcode5" maxlength="5" readonly>
+            </li>
+            <li>
+                <input type="button" value="우편번호 검색" id="addpost" class="infopost">
+            </li>
+            <li>
+                <input type="text" name="m_road" class="postcodify_address" readonly>
+            </li>
+            <li>
+                <input type="text" name="m_addr">
+            </li>
+        </ul>
+        <ul class="infobutton">
+            <li>
+                <input type="button" value="회원가입" onclick="member_fn()">
+            </li>
+            <li>
+                <input type="button" value="가입취소" onclick="memberCancle()">
+            </li>
+        </ul>
+    </section>
+</form>

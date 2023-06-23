@@ -1,0 +1,18 @@
+@charset "utf-8";
+.successpage{
+    padding: 40px;
+}
+.imgok{
+    width: 680px;
+    height: 521px;
+    margin: 0 auto;
+    background-image: url(../images/memberok.jpg);
+    position: relative;
+}
+.imgok > div{
+    position: absolute;
+    bottom: 50px;
+    left: 234.5px;
+    font-size: 20px;
+    font-weight: bold;
+}

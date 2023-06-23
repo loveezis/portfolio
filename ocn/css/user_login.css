@@ -1,0 +1,152 @@
+@charset "utf-8";
+.loginAgree {
+    width: 1100px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 40px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid orange;
+}
+
+.loginAgree>ol:nth-child(1) {
+    width: 120px;
+    height: 60px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    float: left;
+}
+
+.loginAgree>ol:nth-child(2) {
+    width: 360px;
+    height: 60px;
+    float: right;
+    font-size: 13px;
+    text-align: center;
+}
+
+.loginAgree>ol:nth-child(2)>li {
+    width: 100px;
+    height: 60px;
+    float: left;
+}
+
+.loginAgree>ol:nth-child(2)>li:nth-child(1) {
+    color: orange;
+}
+
+.loginAgree>ol:nth-child(2)>li:nth-child(2) {
+    width: 30px;
+}
+
+.loginAgree>ol:nth-child(2)>li:nth-child(4) {
+    width: 30px;
+}
+
+/* 로그인 메뉴 만들기 */
+
+*{
+    box-sizing: border-box;
+}
+.mainbox{
+    width: 600px;
+    height: 220px;
+    border:1px solid #F8B923;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 35px;
+}
+.mainbox2{
+    width: 600px;
+    height: 195px;
+    border:1px solid #F8B923;
+    margin: 0 auto;
+    padding: 20px;
+}
+.idpw{
+   float: left;
+   height: 90px;
+}
+.idpw > div:nth-child(1){
+    float: left;
+    width: 120px;
+    height: 40px;
+    background-color: #F8B923;
+    line-height: 30px;
+    padding: 5px;
+    margin-right: 25px;
+}
+.idpw > input[type=text]:nth-child(2){
+    width: 245px;
+    height: 30px;
+    border: 1px solid #F8B923;
+    text-indent: 10px;
+    vertical-align: -3px;
+}
+.idpw > div:nth-child(3){
+    width: 120px;
+    height: 40px;
+    position: relative;
+    bottom: -20px;
+    background-color: #F8B923;
+    line-height: 25px;
+    padding: 5px;
+    margin-right: 25px;
+}
+.idpw > input[type=password]:nth-child(4){
+    width: 245px;
+    height: 30px;
+    float: right;
+    position: relative;
+    top: -10px;
+    border: 1px solid #F8B923;
+    text-indent: 10px;
+}
+.loginbtn2{
+    width: 140px;
+    height: 90px;
+    background-color: #F8B923;
+    border: 0;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.chkbox{
+    height: 50px;
+    line-height: 50px;
+}
+.chkbox > input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+    vertical-align: -4px;
+}
+.mainbottom > div{
+    float: left;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border: 1px solid black;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.mainbottom > div:nth-child(1){
+    background-color: #666;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+}
+.mainbottom > div:nth-child(3){
+    margin: 0;
+}
+.mene2font{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+

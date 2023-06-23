@@ -1,0 +1,57 @@
+<meta charset="utf-8">
+<script src="./js/user_login.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/user_login.css?v=100">
+<section class="loginAgree">
+    <ol>
+        <li>MEMBER-SHIP</li>
+    </ol>
+    <ol>
+        <li>이용약관 동의</li>
+        <li>
+            <img src="./images/step_on.png">
+        </li>
+        <li>정보입력</li>
+        <li>
+            <img src="./images/step_on.png">
+        </li>
+        <li>가입완료</li>
+    </ol>
+</section>
+<form id="login" method="post" action="./loginok.php"
+    enctype="application/x-www-form-urlencoded">
+    <input type="hidden" name="key" value="ocn">
+    <div class="mainbox">
+        <span class="idpw">
+            <div>아이디</div>
+            <input type="text" name="user_id" id="user_id">
+            <div>패스워드</div>
+            <input type="password" name="user_pw" id="user_pw">
+        </span>
+        <span>
+            <input type="button" value="로그인" class="loginbtn2" onclick="logins()">
+        </span>
+        <span class="chkbox">
+            <input type="checkbox"><a class="checkid">아이디 저장하기</a>
+        </span>
+        <span class="mainbottom">
+            <div>회원가입</div>
+            <div>아이디 찾기</div>
+            <div>비밀번호 찾기</div>
+        </span>
+    </div>
+</form>
+    <div class="mainbox2">
+        <p style="height:30px; font-weight: bold;">비회원 결제 내역 확인</p>
+        <span class="idpw">
+            <div>주문자명</div>
+            <input type="text">
+            <div>결제번호</div>
+            <input type="password">
+        </span>
+        <span>
+            <input type="button" value="조회하기" class="loginbtn2">
+        </span>
+        <div class="mene2font">
+            <div style="font-size: 13px;">※주문자명과 결제번호를 잊으신 경우, 고객센터로 문의하여 주시기 바랍니다.</div>
+        </div>
+    </div>

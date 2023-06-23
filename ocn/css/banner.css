@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/* 메인 배너 시작 */
+
+main{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.mainview{
+    width: 1200px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    clear: both;
+}
+body > main > section.mainview >span{
+    position: absolute;
+    z-index: 15;
+}
+
+/* 버튼핸들링파트 */
+.leftBtn{
+    top: 250px;
+    cursor: pointer;
+    position: absolute;  
+}
+.leftBtn:hover{
+    background-color: #ffffff;
+    opacity: 0.5;
+    border-radius: 50px;
+}
+.rightBtn{
+    position: absolute;
+    top: 250px;
+    left: 1140px;
+    cursor: pointer;
+}
+.rightBtn:hover{
+    background-color: #ffffff;
+    opacity: 0.5;
+    border-radius: 50px;
+}
+/* 버튼핸들링 좌,우 버튼 */
+.mainbanner{
+    list-style: none;
+    width: 1200px;
+    height: 500px;
+    position: absolute;
+}
+.mainbanner > li{
+    width: 1200px;
+    height: 500px;
+    float: left;
+}
+.discbanner{
+    height: 10px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    z-index: 20;
+}
+.discbanner > li{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    margin-right: 5px;
+    float: left;
+}
+.discbanner > li:nth-child(1){
+    background-color: white;
+}

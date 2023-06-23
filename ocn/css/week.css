@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+.moviebox{
+    width: 1200px;
+    height: 150px;
+    text-align: center;
+    color: yellow;
+    padding: 10px 0 10px 0;
+    clear: both;
+}
+.moviebox > li{
+    width: 210px;
+    height: 130px;
+    float: left;
+    position: relative;
+}
+.moviebox > li > em{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 210px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgba(43, 25, 25, 0.5);
+    display:none;
+}
+.moviebox >li:hover em{
+    display: block;
+}
+.moviebox > li:nth-child(1){
+    width: 150px;
+    background-image: url("/portfolio/ocn/contents/week_part.png");
+}
+.moviebox > li:nth-child(2){
+    background-image: url("/portfolio/ocn/contents/b13_1.png");
+}
+.moviebox > li:nth-child(3){
+    background-image: url("/portfolio/ocn/contents/b13_2.png");
+}
+.moviebox > li:nth-child(4){
+    background-image: url("/portfolio/ocn/contents/b13_3.png");
+}
+.moviebox > li:nth-child(5){
+    background-image: url("/portfolio/ocn/contents/b13_4.png");
+}
+.moviebox > li:nth-child(6){
+    background-image: url("/portfolio/ocn/contents/b13_5.png");
+}
+

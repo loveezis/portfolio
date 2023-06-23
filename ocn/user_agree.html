@@ -1,0 +1,52 @@
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="./css/user_agree.css?v=5">
+<script src="./js/jquery.js"></script>
+<script src="./js/user_agree.js?v=5"></script>
+
+<section class="agree">
+    <ul>
+        <li>MEMBER-SHIP</li>
+    </ul>
+    <ul>
+        <li>이용약관 동의</li>
+        <li>
+            <img src="./images/step_on.png">
+        </li>
+        <li>정보입력</li>
+        <li>
+            <img src="./images/step_on.png">
+        </li>
+        <li>가입완료</li>
+    </ul>
+</section>
+
+
+<form id="ship" method="get" action="./memberinfo.html">
+    <section class="agreenode">
+        <div class="agreeTop">이용약관</div>
+        <label onclick="allagree()">
+            <input type="checkbox" class="inp1" id="all_agree">
+            모든 약관을 동의하고 전체 동의합니다.
+        </label>
+        <label>
+            <input type="checkbox" class="inp2 ag" name="m_agree1" value="y">      
+            <em class="color">(필수)</em> 이용약관 동의
+        </label>
+        <textarea class="agreeText1" id="agreeText1"></textarea>
+        <label>
+            <input type="checkbox" class="inp3 ag" name="m_agree2" value="y">          
+            <em class="color">(필수)</em> 개인정보 수집 및 이용안내
+        </label>
+        <textarea class="agreeText2" id="agreeText2"></textarea>
+    </section>
+    <div class="agreeBtn">
+        <input type="button" value="다음단계" onclick="agree()">
+    </div>
+</form>
+
+
+
+
+
+
+<!--다음 페이지 클릭시 memberinfo.html로 넘어감-->

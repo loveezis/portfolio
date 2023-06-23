@@ -1,0 +1,304 @@
+@charset "utf-8";
+
+.memberingoMain{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+.memberagree{
+    width: 1100px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 40px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid orange;
+}
+.memberagree > ol:nth-child(1){
+    width: 120px;
+    height: 60px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    float: left;
+}
+.memberagree > ol:nth-child(2){
+    width: 360px;
+    height: 60px;
+    float: right;
+    font-size: 13px;
+    text-align: center;
+}
+.memberagree > ol:nth-child(2) > li{
+    width: 100px;
+    height: 60px;
+    float: left;
+}
+.memberagree > ol:nth-child(2) > li:nth-child(1){
+    color: orange;
+}
+.memberagree > ol:nth-child(2) > li:nth-child(2){
+    width: 30px;
+}
+.memberagree > ol:nth-child(2) > li:nth-child(4){
+    width: 30px;
+}
+
+/* 메인메뉴 */
+ul{
+    margin-bottom: 5px;
+}
+.memberInfoMain{
+    width: 985px;
+    margin: 0 auto;
+}
+.infoHeader{
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* 회원가입 메뉴 시작 */
+.infoIdmenu{
+    height: 40px;
+}
+.infoIdmenu{
+    width: 1060px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.infoIdmenu > li{
+    height: 40px;
+    float: left;
+    margin-right: 5px;
+}
+.infoIdmenu > li:nth-child(1){
+    width: 120px;
+    background-color: #F8B923;
+    text-align:left;
+    padding-left: 5px;
+    font-size: 13px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+.infoIdmenu> li:nth-child(2) > input{
+    height: 30px;
+    border: 1px solid orange;
+    vertical-align: 2px;
+}
+.infoIdmenu > li:nth-child(3) > input{
+    width: 100px;
+    height: 30px;
+    background-color: #F8B923 ;
+    color: white;
+    border: 0;
+}
+
+/* 패스워드 */
+.infopw1{
+    width: 1060px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.infopw1 > li{
+    height: 40px;
+    float: left;
+    margin-right: 5px;
+}
+.infopw1 > li:nth-child(1){
+    width: 120px;
+    background-color: #F8B923;
+    text-align:left;
+    padding-left: 5px;
+    font-size: 13px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.infopw1 > li:nth-child(2) > input{
+    height: 30px;
+    border: 1px solid orange;
+    vertical-align: 1px;
+}
+/* 동일한 패스워드 */
+.infopw2{
+    width: 1060px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.infopw2 > li{
+    height: 40px;
+    float: left;
+    margin-right: 5px;
+}
+.infopw2 > li:nth-child(1){
+    width: 120px;
+    background-color: #F8B923;
+    text-align:left;
+    padding-left: 5px;
+    font-size: 13px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.infopw2 > li:nth-child(2) > input{
+    height: 30px;
+    border: 1px solid orange;
+}
+
+/* 고객명 */
+
+.infoname{
+    width: 1060px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.infoname > li{
+    height: 40px;
+    float: left;
+    margin-right: 5px;
+}
+.infoname > li:nth-child(1){
+    width: 120px;
+    background-color: #F8B923;
+    text-align:left;
+    padding-left: 5px;
+    font-size: 13px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.infoname > li:nth-child(2) > input{
+    height: 30px;
+    border: 1px solid orange;
+}
+/* info 이메일 */
+.infoemail{
+    width: 1060px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.infoemail > li{
+    height: 40px;
+    float: left;
+    margin-right: 5px;
+}
+.infoemail > li:nth-child(1){
+    width: 120px;
+    background-color: #F8B923;
+    text-align:left;
+    padding-left: 5px;
+    font-size: 13px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.infoemail > li:nth-child(2) > input{
+    height: 30px;
+    border: 1px solid orange;
+    vertical-align: 1px;
+
+}
+.infoSelect{
+    width: 100px;
+    height: 30px;
+    border: 1px solid orange;
+    vertical-align: 1px;
+}
+
+/*연락처*/
+.infophone{
+    width: 1060px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.infophone > li{
+    height: 40px;
+    float: left;
+    margin-right: 5px;
+}
+.infophone > li:nth-child(1){
+    width: 120px;
+    background-color: #F8B923;
+    text-align:left;
+    padding-left: 5px;
+    font-size: 13px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.infophone > li:nth-child(2) > input{
+    height: 30px;
+    border: 1px solid orange;
+    vertical-align: 4px;
+}
+
+/*주소*/
+.infoAdress{
+    width: 1060px;
+    height: 120px;
+}
+.infoAdress li{
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    height: 40px;
+}
+.infoAdress > li:nth-child(1){
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    background-color: #F8B923;
+    text-align:left;
+    padding-left: 5px;
+    font-size: 13px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.infoAdress > li:nth-child(2) > input{
+    height: 30px;
+    border: 1px solid orange;
+}
+.infopost{
+    width: 150px;
+    height: 30px;
+    background-color: #F8B923;
+    color: white;
+    border: 0;
+}
+.infoAdress > li:nth-child(3){
+    width: 680px;
+    height: 30px;   
+}
+.infoAdress > li:nth-child(4) > input{
+    height: 30px;
+    border: 1px solid orange;
+    width: 780px;
+}
+.infoAdress > li:nth-child(5) > input{
+    height: 30px;
+    border: 1px solid orange;
+    width: 780px;
+}
+
+/* 버튼메뉴 */
+.infobutton{
+    width: 1100px;
+    height: 45px;
+    display: inline-block;
+}
+.infobutton > li{
+    position: relative;
+    left: 350px;
+    float: left;
+    font-size: 13px;
+}
+.infobutton > li > input{
+    width: 150px;
+    height: 45px;
+}
+.infobutton > li:nth-child(1) > input{
+    background-color: #F8B923;
+    border: 0;
+    margin-right: 5px;
+}
+.infobutton > li:nth-child(2) > input{
+    background-color:rgb(80, 79, 79);
+    color: white;
+    border: 0;
+}

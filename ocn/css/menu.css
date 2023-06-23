@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+/* 상단 메뉴 시작 */
+nav{
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+    padding-top: 10px;
+    clear: both;
+}
+.ocnSize{
+    width: 1200px;
+    height: 55px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.ocnMenu{
+    width: 1200px;
+    height: 30px;
+    margin-top: 12.5px;
+}
+.ocnMenu > ul > li{
+    width: 240px;
+    height: 25px;
+    float: left;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.ocnImg{
+    cursor: pointer;
+}
+/* 상단 서브메뉴 */
+
+.ocnSubMenu{
+    width: 240px;
+    height: 100px;
+    /* display: none; */
+}
+.ocnMenu{
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    position: relative;
+}
+.ocnMenu > ul{
+    position: absolute;
+    z-index: 10;
+}
+.ocnMenu > ul > li > ol{
+    background-color: #ffffff;
+    opacity: 0.5;
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+}
+/* a{
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+} */
+
+
+.ocnSubMenu > li{
+    width: 240px;
+    height: 25px; 
+    line-height: 25px;
+}
+.ocnSub1, .ocnSub2, .ocnSub3, .ocnSub4, .ocnSub5{ /*소메뉴 슬라이드메뉴*/
+    display: none;
+}
+/* 상단 메뉴 끝 */

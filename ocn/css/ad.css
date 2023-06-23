@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.adBanner{
+    width: 1200px;
+    height: 120px;
+    background-image: url("../banner/middlebanner.png");
+    margin: 0 auto;
+    cursor: pointer;
+    clear: both;
+}

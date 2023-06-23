@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+span{
+    display: block;
+}
+ul,ol{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+}
+/*해더 메뉴 ul,li*/
+header{
+    width: 1200px;
+    height: 35px;
+    margin: 0 auto;
+    font-size: 14px;
+    clear: both;
+}
+.menuleft{
+    width: 100px;
+    height: inherit;
+    float: left;
+    cursor: pointer;
+}
+.menuright{
+    width:1100px;
+    height: 35px;
+    text-align: right;
+    float: left;
+    cursor: pointer;
+}
+.menuright > ul{
+    float: right;
+}
+.menuright >ul > li{
+    margin-right:10px;
+    height: inherit;
+    float: left;
+    line-height: 35px;
+    margin-left: 10px;
+}
+.menuright >ul > li:nth-child(4){
+    margin: 0;
+}
+.headerli2 > li{
+    width: 200px;
+}
+.username1{
+    display: inline-block;
+}    
+/* header 메뉴 끝 */
