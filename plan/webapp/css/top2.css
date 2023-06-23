@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+.top2{
+	width: 1200px;
+	height: 70px;
+	margin: 0 auto;
+	background-color: #1e1f21;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 500;
+}
+.top2 > ol {
+	width: 1200px;
+	height: 70px;
+}
+.top2 > ol > li{
+	float: left;
+	height:70px;
+	text-align: center;
+	line-height: 70px;
+	cursor: pointer;
+	font-weight: 300;
+	color: white;
+	font-size: 17px;
+}
+.top2 > ol > li:hover{
+	font-weight: 700;
+}
+.top2 > ol > li:nth-of-type(8):hover{
+	font-weight: 500;
+}
+.top2 > ol > li:nth-of-type(1) {
+	width:250px;
+	background-image: url('../logo/logo.png');
+	background-size: 250px 40px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.top2 > ol > li:nth-of-type(2) {
+	width:15px;
+}
+
+
+.top2 > ol > li:nth-of-type(3) {
+	width:125px;
+}
+.top2 > ol > li:nth-of-type(4) {
+	width:125px;
+}
+.top2 > ol > li:nth-of-type(5) {
+	width:125px;
+}
+.top2 > ol > li:nth-of-type(6) {
+	width:125px;
+}
+.top2 > ol > li:nth-of-type(7) {
+	width:125px;
+}
+.tops2{
+	width:310px;
+}
+
+.tops2 > ul{
+	width:310px;
+}
+.tops2 > ul > li{
+	float: left;
+}
+.tops2 > ul > li:nth-of-type(1){
+	width:10px;
+}
+.tops2 > ul > li:nth-of-type(2){
+	width:300px;
+}
+.tops2 > ul > li:nth-of-type(2) > span{
+	height: 35px;
+	float: left;
+	margin-top: 14px;
+}
+
+
+
+.tops2 > ul > li:nth-of-type(2) > span:nth-of-type(1) {
+	width: 40px;
+	background-image: url('../ico/person.svg');
+	background-size: cover;
+	background-size: 35px 35px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.tops2 > ul > li:nth-of-type(2) > span:nth-of-type(2) {
+	width: 50px;
+	line-height: 40px;
+	text-align: right;
+	color: white;
+	font-size: 15px;
+	font-weight: 300;
+}
+.tops2 > ul > li:nth-of-type(2) > span:nth-of-type(3) {
+	width: 100px;
+	text-align: left;
+	line-height: 40px;
+	color: white;
+	font-size: 15px;
+	font-weight: 300;
+}
+.tops2 > ul > li:nth-of-type(2) > span:nth-of-type(4) {
+	width: 90px;
+	line-height: 35px;
+	text-align: center;
+	color: white;
+	border: 1px solid white;
+	font-size: 15px;
+	font-weight: 300;
+	margin-left: 10px;
+}
+
+.tops2 > ul > li:nth-of-type(2) > span:nth-of-type(4):hover{
+	font-weight: 500;
+}
+
+
+.copy{
+	width: 1200px;
+	height: 70px;
+	margin: 0 auto;
+	background-color:#1e1f21;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 500;
+}
+.copy > ol{
+	padding-top: 17px;
+	width: 1100px;
+	height: 50px;
+	margin: 0 auto;
+}
+.copy > ol > li{
+	height: 15px;
+	font-size: 14px;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: white;
+	font-weight: 300;
+	line-height: 15px;
+	text-align: center;
+}
+.copy > ol > li:nth-of-type(1){
+	margin-bottom: 5px;
+}

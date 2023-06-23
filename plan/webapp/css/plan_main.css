@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+.yTopMenu {
+	width: 1200px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+/*메인 출력페이지*/
+#ymainbox>div.ybox2>div.ybox_child.ydate {
+	height: 80px;
+	font-size: 15px;
+}
+
+.ydate {
+	display: flex;
+	justify-content: space-between;
+}
+
+.yTopMenu {
+	width: 1200px;
+	height: 170px;
+}
+
+.yTopMenu>p {
+	font-family: 'IBM Plex Sans KR', sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#yname {
+	font-weight: 500;
+	font-size: 25px;
+	/* background-image: url('../ico/camping.svg');
+	background-repeat: no-repeat; */
+}
+/* 라디오 사이즈 조절 */
+.radiovalue {
+	width: 30px;
+	height: 30px;
+}
+.ybox_child {
+	border-bottom: 1px solid black;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+.yicon{
+	width: 30px;
+	vertical-align: -5px;
+	margin-right: 10px;
+}
+/* 완료 됐을때 디스플레이 */
+
+.ysucces:hover{
+	color: white;
+}
+.ysucces{
+	width: 80px;
+    height: 30px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+
+.cmoney {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 500;
+	display: flex;
+	justify-content: end;
+	border: 0;
+}
+.Yuser{
+	height: 80px;
+	font-size: 25px;
+	font-weight: 500;
+	
+}
+.ymainbox {
+	width: 1200px;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 0 auto;
+}
+
+.ypartno {
+	display: flex;
+	flex-direction: row;
+}
+
+.ybox1 {
+	width: 400px;
+	height: 400px;
+	background-size: 100% 100%;
+}
+
+.ybox2 {
+	width: 650px;
+}
+
+
+
+.yboxuser {
+	display: flex;
+	flex-direction: row;
+}
+
+.ybox2>div.ybox_child.yboxuser > span {
+	width: 200px;
+	height: 30px;
+	padding-left: 5px;
+}
+
+#yuserid {
+	width: 250px;
+	height: 30px;
+	border: 1px solid #000000;
+	text-indent: 3px;
+}
+
+.yboxphone {
+	display: flex;
+	flex-direction: row;
+}
+
+.ybox2>div.ybox_child.yboxphone>span {
+	width: 200px;
+	height: 30px;
+	padding-left: 5px;
+}
+
+.yboxphone>input[type=text] {
+	width: 250px;
+	height: 30px;
+	border: 1px solid #000000;
+	text-indent: 3px;
+}
+
+.yboxperson {
+	display: flex;
+	flex-direction: row;
+}
+
+.ybox2>div.ybox_child.yboxperson>span {
+	width: 200px;
+	height: 30px;
+	padding-left: 5px;
+}
+
+.yboxperson>select {
+	width: 100px;
+	height: 25px;
+	border: 1px solid #000000;
+}
+
+.ybtnMenu {
+	width: inherit;
+	height: 80px;
+	text-align: center;
+	margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 80px;
+}
+.ybtnMenu > input[type=button]{
+	width: 250px;
+	height: 70px;
+	background-color:#1e1f21;
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: 300;
+	font-family: 'Noto Sans KR', sans-serif;
+}
