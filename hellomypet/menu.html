@@ -1,0 +1,79 @@
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="./css/menu.css?v=<?php echo $v?>">
+<script src="./js/menu.js?v=<?php echo $v?>"></script>
+<form id="fmm" action="./m_logout.php">
+<section class="Cmenu_main" id="Cmenu_main">
+    <ul class="Cmenu_left">
+        <li id="loginsuccess">
+            <span class="Clogout" id="Cloginbtn">로그인</span>
+            <span class="Clogout Cright" id="Cjoinbtn">회원가입</span>
+                <div class="Clogin" id="clogin">
+                    <label id="Cusername"></label>
+                    <label> 님 환영합니다.</label>
+                </div>
+                <span class="Clogin Cright" id="Clogoutbtn" onclick="abcd()">로그아웃</span>
+            </li>
+        <li>
+            <span>
+                <label class="Csvg1">공지</label>
+            </span>
+            <span>
+                <label class="Csvg2">문의</label>
+            </span>
+            <span>
+                <label class="Csvg3">후기</label>
+            </span>
+            <span>
+                <label class="Csvg4">FAQ</label>
+            </span>
+        </li>
+        <li>
+            <fieldset class="Cqst">
+                <legend>질문내역</legend>
+                <ul id="Cqst">
+                </ul>
+            </fieldset>
+        </li>
+        <li class="Cbank">
+            <span>ACCOUNT NO.012-23-123456 [국민은행] </span>
+            <span>예금주:(주)헬로우펫</span>
+        </li>
+        <li>
+            <ul class="Ccs">
+                <li>CS CENTER</li>
+                <li>070-2021-0630</li>
+                <li>MON-FRI AM09:00 ~ PM06:00</li>
+                <li>LUNCH 12:00 - 13:00</li>
+                <li>SAT,SUN,HOLIDAY OFF</li>
+                <li><a href="tel:02-0000-0101">고객센터 연결</a></li>
+            </ul>
+        </li>
+    </ul>
+    <!-- <div class="Cmenu_right"></div> -->
+</section>
+</form>
+<script>
+    var name = "<?php echo $mname ?>";
+    var Cloginbtn = document.getElementById("Cloginbtn");
+    var Cjoinbtn = document.getElementById("Cjoinbtn");
+    var Cusername = document.getElementById("Cusername");
+    var clogin = document.getElementById("clogin");
+    var Clogoutbtn = document.getElementById("Clogoutbtn");
+    
+    if (name != "") {
+        Cloginbtn.style.display = "none";
+        Cjoinbtn.style.display = "none";
+        clogin.style.display = "block";
+        Clogoutbtn.style.display = "block";
+        Cusername.innerText = name;
+    } else {
+        Cloginbtn.style.display = "block";
+        Cjoinbtn.style.display = "block";
+        Clogoutbtn.style.display = "none";
+    }
+    
+    function abcd(){
+        var form = document.getElementById("fmm");
+        form.submit();
+    }
+</script>
