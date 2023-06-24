@@ -1,0 +1,139 @@
+@charset "UTF-8";
+.base{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 16px;
+	margin: 0 auto;
+	width: 500px;
+	text-align: center;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+/* 로그인 글자 */
+.base > li{
+	width: 400px;;
+	height: 48px;
+	line-height: 48px;
+	margin-bottom: 5px;
+}
+.base > li:first-of-type{
+	font-family: 'IBM Plex Sans KR';
+	font-size: 40px;
+	font-weight: bold;
+	text-decoration: underline;
+	height: 120px;
+	line-height: 120px;
+	margin: 0;
+}
+/* 간편 로그인 글자 */
+.base > li:nth-of-type(2){
+	color: #BDBDBD;
+	height: 50px;
+	line-height: 50px;
+	margin: 0;
+}
+/* 입력 파트 */
+.base > li > input{
+	width: inherit;
+	height: inherit;
+	border-radius: 4px;
+	outline: 0;
+	border: 1px solid #BDBDBD;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 16px;
+	text-indent: 10px;
+}
+
+/* 버튼 파트 */
+.base > li > div{
+	width: inherit;
+	height: inherit;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 48px;
+	cursor: pointer;
+}
+.btn1{
+	background-color: #4F84F5;
+	color: white;
+}
+.btn2{
+	border: 1px solid #4F84F5;
+	color: #4F84F5;
+}
+
+/* 소메뉴 파트 */
+.ol1{
+	width: inherit;
+	height: inherit;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.ol1 > li{
+	width: 100px;
+	height: inherit;
+	text-align: center;
+	color: #BDBDBD;
+}
+.ol1 > li:first-of-type:after, .ol1 > li:nth-of-type(2):after{
+	content: "|";
+	position: relative;
+	left: 25px;
+}
+
+/* 간편로그인 글자 */
+.base > li:nth-of-type(7){
+	display: flex;
+	flex-direction: row;
+}
+.base > li > label{
+	width: 140px;
+	height: 24px;
+	border-bottom: 1px solid black;
+}
+.base > li:nth-of-type(7) > div{
+	width: 120px;
+	height: 48px;
+	line-height: 48px;
+}
+
+/* 간편 로그인 아이콘 */
+.base > li:nth-of-type(8){
+	height: 80px;
+}
+.ol2{
+	width: inherit;
+	height: inherit;
+	display: flex;
+	justify-content: space-around;
+}
+.ol2 > li > span{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #BDBDBD;
+	border-radius: 100%;
+	background-repeat: no-repeat;
+	background-size: 40px 40px;
+	background-position: center;
+	cursor: pointer;
+}
+.ol2 > li:first-of-type > span{
+	background-image: url("../ico/icon-kakao.png");
+}
+.ol2 > li:nth-of-type(2) > span{
+	background-image: url("../ico/icon-naver.png");
+}
+.ol2 > li:nth-of-type(3) > span{
+	background-image: url("../ico/icon-phone.png");
+}
+.ol2 > li:last-of-type > span{
+	background-image: url("../ico/icon-ipin.png");
+}
+.base > li:last-of-type{
+	margin-bottom: 0;
+	margin-top: 20px;
+}
