@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* font-family: 'Noto Sans KR', sans-serif; 100 300 400 500 700 900 */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+/* font-family: 'IBM Plex Sans KR', sans-serif; 100 200 300 400 500 600 700*/
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap");
+
+
+*{
+	box-sizing: border-box;
+}
+.product_menu{
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+section > div:nth-child(1){
+	height: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+section > div:nth-child(1) > span:nth-child(1){
+	width: 15px;
+	height: 15px;
+	background-color: red;
+	border: 0;
+	margin-right: 3px;
+}
+.divSize{
+	display: flex;
+	width: inherit;
+	height: 40px;
+	align-items: center;
+	margin-bottom: 2px;
+}
+.divSize2{
+	display: flex;
+	width: inherit;
+	height: 160px;
+	margin-bottom: 2px;
+}
+.divSize3{
+	display: flex;
+	width: inherit;
+	height: 420px;
+	align-items: center;
+}
+.select_size{
+	width: 120px;
+	height: 30px;	
+	box-sizing: border-box;
+}
+.codeCkBtn{
+	background-color:rgb(140, 107, 110);
+    border: 0;
+    width: 80px;
+    height: 30px;
+    margin-left: 5px;
+    color: white;
+}
+section > div:nth-child(5) > input[type=text]{
+	width: 250px;
+	height: 30px;
+}
+section > div:nth-child(6) > input[type=text]{
+	width: 500px;
+	height: 30px;
+}
+.inputSize100{
+	width:100px;
+	height: 30px;
+	margin-right: 10px;
+	text-align: right;
+}
+.pd_name{
+	width: 160px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(142, 106, 106);
+    color: white;
+    margin-right: 5px;
+    font-size: 13px;
+    padding-left: 5px;
+}
+section > div:nth-child(10) > span:nth-child(3){
+	margin-left: 5px;
+}
+.radioSize{
+	width: 250px;
+	height: 40px;
+    line-height: 40px;
+}
+.radioMargin{
+	margin-left: 20px;
+}
+.pdimg_name{
+	height: 160px;
+}
+.pdimg_size{
+	width: 375px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+}
+.pdinfo_name{
+	height: 420px;
+}
+.cksize{
+	width: 830px;
+	height: 400px;
+}
+#frm > section > div:last-child{
+	display: flex;
+    justify-content: center;
+    height: 40px;
+    margin-top: 20px;
+}
+#frm > section > div:last-child > input[type=button]:nth-child(1){
+	margin-right: 5px;
+	background-color: rgb(81, 61, 61);
+	width: 150px;
+	height: 45px;
+	border: 0;
+	font-size: 13px;
+	color: #ffffff;
+}
+#frm > section > div:last-child > input[type=button]:nth-child(2){
+	background-color:rgb(132, 6, 6);
+	width: 150px;
+	height: 45px;
+	border: 0;
+	font-size: 13px;
+	color: #ffffff;
+	
+}

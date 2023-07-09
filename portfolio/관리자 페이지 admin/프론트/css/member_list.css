@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+.mainPart {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.mainPart>div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	
+}
+
+#mainPart>div:nth-child(1) {
+	height: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+	font-weight: bold;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+#mainPart>div:nth-child(2) {
+	height: 40px;
+}
+
+.redBox {
+	width: 15px;
+	height: 15px;
+	background-color: red;
+	margin-right: 5px;
+}
+
+.firstul {
+	height: 40px;
+	width: 1000px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	background-color: saddlebrown;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: wheat;
+	font-size: 12px;
+	align-items: center;
+}
+
+#mainPart>div:nth-child(2)>select {
+	width: 100px;
+	height: 35px;
+	margin-right: 5px;
+}
+
+#mainPart>div:nth-child(2)>input[type=text]:nth-child(2) {
+	width: 270px;
+	height: 35px;
+	margin-right: 5px;
+}
+
+#search_check {
+	width: 100px;
+	height: 35px;
+	background-color: black;
+	color: white;
+}
+
+.firstul>li {
+	border-right: 1px solid white;
+	width: 120px;
+}
+
+.firstul>li:first-child {
+	width: 40px;
+}
+
+.firstul>li:last-child {
+	border: 0;
+}
+
+.middelul {
+	height: 40px;
+	line-height: 25px;
+	width: 1000px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 12px;
+	align-items: center;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.displayli {
+	width: 1000px;
+	height: 40px;
+	border: 1px solid black;
+	line-height: 40px;
+	text-align: center;
+	display: none;
+}
+
+.displayUser {
+	width: 1000px;
+	height: 40px;
+	border: 1px solid black;
+	line-height: 40px;
+	text-align: center;
+	display: none;
+}
+
+.middelul li:first-child {
+	width: 40px;
+}
+
+.middelul li {
+	width: 120px;
+	height: 20px;
+	border-right: 1px solid black;
+	overflow: hidden;
+}
+
+.middelul li:last-child {
+	display: flex;
+	justify-content: center;
+	border: 0;
+}
+
+.middelul>li:nth-child(12)>input[type=button]:nth-child(1) {
+	background-color: black;
+	color: white;
+	border: 0;
+	margin-right: 2px;
+}
+
+.middelul>li:nth-child(12)>input[type=button]:nth-child(2) {
+	background-color: black;
+	color: white;
+	border: 0;
+}
+
+
+/* 페이징 번호 */
+
+
+.botDivSize1 {
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	height: 45px;
+	justify-content: center;
+	align-items: center;
+}
+
+.botDivSize1 span{
+	width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.botDivSize2 {
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	height: 45px;
+}
+
+.botDivSize2>input[type="button"] {
+	background-color: saddlebrown;
+	width: 150px;
+	height: inherit;
+	border: 0;
+	color: white;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 15px
+}
+.notice_page > span:nth-child(1){
+	cursor: pointer;
+}
+.notice_page > span:nth-child(5){
+	cursor: pointer;
+}
+
+
+.ulAppend {
+  display: block !important;
+}
