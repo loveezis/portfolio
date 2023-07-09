@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.body > div{
+	width: 100%;
+	margin:0 auto;
+}
+.bannerBox{
+	position: fixed;
+    width: 372px;
+    height: 372px;
+    border: 1px solid black;
+    left: 72%;
+    bottom: 13%;
+    z-index: 999;
+    transition: 1.5s;
+}
+.box{
+	width: 30px;
+    right: 10px;
+    position: absolute;
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 26px;
+    top: 9px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.box:hover{
+	color: white;
+}

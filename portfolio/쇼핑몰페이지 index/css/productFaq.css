@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+/* font-family: 'Noto Sans KR', sans-serif; 100 300 400 500 700 900 */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+/* font-family: 'IBM Plex Sans KR', sans-serif; 100 200 300 400 500 600 700*/
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap");
+
+
+.joinPath {
+	width: 1100px;
+	height: 16px;
+	margin: 0 auto;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 12px;
+	margin-top: 30px;
+}
+
+.joinHeader {
+	width: 1100px;
+	margin: 0 auto;
+	height: 60px;
+	border-bottom: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid gray;
+	margin-bottom: 20px;
+}
+
+.joinHeader>p {
+	font-size: 27px;
+	color: #333333;
+	font-weight: 700;
+	font-family: 'Noto Sans KR', sans-serif;
+	margin-bottom: 20px;
+}
+.fontGray {
+	font-weight: bold;
+}
+
+
+/* faq 메뉴 */
+
+.faqMenu{
+	width: 1100px;
+    height: 30px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom:30px;
+}
+.faqMenu > span{
+	width: 75px;
+    height: 20px;
+    border-right: 1px solid black;
+    margin-right: 20px;
+    font-size:15px;
+    font-family: 'Noto Sans KR', sans-serif;
+    cursor: pointer;	
+}
+.faqMenu > span:hover{
+	color: red;
+}
+.faqMenu > span:first-child{
+	width: 60px;
+	font-weight: bold;
+}
+
+.faqMenu > span:last-child{
+	width: 120px;
+}
+body > main > div.faqMenu > span:nth-child(5){
+	width: 100px;
+}
+
+
+/* faq 박스 */
+.faqLine{
+	width: 1100px;
+	height: 290px;
+	margin:0 auto;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+.faqLine .faqBox{
+	width: 1100px;
+	height: 290px;
+}
+.faqLine .faqBox > li{
+	width:1100px;
+	height: 30px;
+	border-top: 1px solid black;
+	border-left:1px solid black;
+	border-right: 1px solid black;
+	padding-left: 5px;	
+	line-height: 30px;
+}
+.faqLine .faqBox > li:nth-child(2){
+	height: 200px;
+}
+.faqLine .faqBox > li:last-child{
+	border-bottom: 1px solid black;
+}
+
+

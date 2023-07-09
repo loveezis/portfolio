@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+/* font-family: 'Noto Sans KR', sans-serif; 100 300 400 500 700 900 */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+/* font-family: 'IBM Plex Sans KR', sans-serif; 100 200 300 400 500 600 700*/
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap");
+
+
+.joinPath{
+	width: 1100px;
+    height: 16px;
+    margin: 0 auto;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.joinHeader{
+	width: 1100px;
+    margin: 0 auto;
+    height: 60px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.joinHeader > p{
+	font-size: 27px;
+    color: #333333;
+    font-weight: 700;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.joinHeader span{
+	font-size: 14px;
+	color:#333333;
+}
+.fontGray{
+	font-weight: bold;
+}
+
+/* 회원가입 양식 */
+.frmClass{
+	width: 750px;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+
+.frmHeader{
+	width: inherit;
+    height: 40px;
+    font-weight: 400;
+    border-bottom: 1px solid black;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.frmHeader span{
+	font-family: 'IBM Plex Sans KR', sans-serif;
+	font-size: 12px;
+	
+}
+.joinName{
+	width: 120px;
+	height: 50px;
+	line-height: 50px;
+	background-color:#dcdcdc;
+	margin-bottom: 2px;
+	margin-right: 10px;
+	padding-left: 5px;
+}
+.frmClass > div{
+	display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dcdcdc;
+}
+.frmClass > div:first-child{
+	border-bottom: 1px solid #222222;
+}
+.frmClass > div:nth-child(2) > input[type=text]{
+	width: 350px;
+	height: 35px;
+}
+/* 비밀번호 인풋 */
+.frmClass > div:nth-child(3) > input[type=password]{
+	width: 200px;
+	height: 35px;
+}
+.frmClass > div:nth-child(4) > input[type=password]{
+	width: 200px;
+	height: 35px;
+}
+/* 이름 인풋 */
+.frmClass > div:nth-child(5) > input[type=text]{
+	width: 350px;
+	height: 35px;
+}
+/*이메일 입력 인풋*/
+.frmClass > div:nth-child(6) > span:nth-child(2){
+	width: 370px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* 이매일 입력 인풋 */
+.frmClass > div:nth-child(6) > span.joinName{
+	height: 80px;
+	line-height: 80px;
+}
+.frmClass > div:nth-child(6) > span:nth-child(2) > input[type=text]:nth-child(1){
+	width: 250px;
+	height: 35px;
+	margin-right: 10px;
+}
+.frmClass > div:nth-child(6) > span:nth-child(2) > select{
+	width: 100px;
+	height: 35px;
+}
+
+/* 휴대전화 */
+.frmClass > div:nth-child(7) > span.joinName{
+	height: 80px;
+	line-height: 80px;
+}
+.frmClass > div:nth-child(7) > span:nth-child(2) > input[type=text]:nth-child(1){
+	width: 250px;
+	height: 35px;
+}
+.frmClass > div:nth-child(7) > span:nth-child(2){
+	display: flex;
+    height: 80px;
+    width: 280px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+/* 이름 입력 인풋 */
+.frmClass > div:nth-child(8) > input[type=text]{
+	width: 350px;
+	height: 35px;
+}
+
+/* 주소 입력 */
+.frmClass > div:nth-child(9) > span:nth-child(2){
+    width: 455px;
+    height: 125px;
+    line-height: 40px;
+	
+}
+/* 주소 입력 인풋 */
+.frmClass > div:nth-child(9) > span.joinName{
+	height: 125px;
+	line-height: 125px;
+}
+.frmClass > div:nth-child(9) > span:nth-child(2) > div > input[type=text]:nth-child(1){
+	width: 200px;
+	height: 35px;
+}
+.frmClass > div:nth-child(9) > span:nth-child(2) > div > input[type=button]:nth-child(2){
+	width: 100px;
+	height: 35px;
+	vertical-align: -1px;	
+}
+.frmClass > div:nth-child(9) > span:nth-child(2) > input[type=text]:nth-child(2){
+	width: 450px;
+	height: 35px;
+}
+.frmClass > div:nth-child(9) > span:nth-child(2) > input[type=text]:nth-child(3){
+	width: 450px;
+	height: 35px;
+}
+
+/* 버튼부분 메뉴 */
+
+.joinBottomDiv{
+	margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.joinBottomDiv > input[type="button"]:nth-of-type(1){
+	width: 150px;
+	height: 45px;
+	background-color: #ffffff;
+	border:1px solid #666666;
+}
+.joinBottomDiv > input[type="button"]:nth-of-type(2){
+	width: 150px;
+	height: 45px;
+	background-color: #666666;
+	border:1px solid #666666;
+}

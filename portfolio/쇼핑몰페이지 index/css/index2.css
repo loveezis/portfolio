@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+.bannerSize {
+	width: 1100px;
+	height: 450px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.boxmove {
+	overflow: hidden;
+	width: 3300px;
+	height: 450px;
+	display: flex;
+	justify-content: start;
+	flex-direction: row;
+	position: absolute;
+}
+
+.btnMenu {
+	position: absolute;
+	z-index: 15px;
+	bottom: 200px;
+	display: flex;
+	justify-content: space-between;
+	width: 1100px;
+}
+
+.btnMenu>span {
+	width: 50px;
+	height: 50px;
+}
+
+
+.btnMenu>span:nth-of-type(1) {
+	background-image: url(../banners/leftbtn.png);
+}
+
+.btnMenu>span:nth-of-type(2) {
+	background-image: url(../banners/rightbtn.png);
+}
+
+.btnMenu2 {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	display: flex;
+}
+.btnMenu2 > span{
+	width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    line-height: 25px;
+    text-align: center;
+    background: black;
+    color: white;
+}
