@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+.noticeMother{
+	margin :0 auto;
+	width: 1000px;
+	height: auto;
+}
+.redBoxMother{
+	width: inherit;
+	height: 30px;
+	margin-top: 20px;
+	display: flex;
+	border-bottom: 2px solid black;
+	align-items: center;
+	padding: 0 10px 0 10px;
+}
+.redBoxMother > span:nth-of-type(1){
+	width: 15px;
+	height: 15px;
+	background-color: red;
+	margin-right: 5px;
+}
+.noticeMother > div{
+	display: flex;
+	height: 40px;
+	border-bottom: 1px solid black;
+	align-items: center;
+}
+.noticeMother > div:last-child{
+	padding: 5px 0 5px 0;
+	height: 550px;
+	align-items: self-start;
+	border-bottom: 1px solid black;
+}
+.subject_name{
+	width: 250px;
+}
+.noticeMother > div:nth-child(3) > input[type=text]{
+	width: 600px;
+	height: 30px;
+}
+.noticeMother > div:nth-child(4) > input[type=text]{
+	width: 200px;
+	height: 30px;
+	margin-right: 5px;
+}
+.ck_area{
+	width: 700px;
+	height: 540px;
+}
+
+/* 버튼 메뉴 */
+.register_btn{
+	width: 1000px;
+	margin: 0 auto;
+	height: 40px;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	margin-top: 8px;
+}
+
+.register_btn > input[type=button]:nth-child(1){
+	background-color: rgb(81, 61, 61);
+	width: 150px;
+	height: 45px;
+	border: 0;
+	margin-right: 5px;
+	color: white;
+}
+.register_btn > input[type=button]:nth-child(2){
+	background-color: rgb(132, 6, 6);
+	width: 150px;
+	height: 45px;
+	border: 0;
+	color: white;
+}
+
+
