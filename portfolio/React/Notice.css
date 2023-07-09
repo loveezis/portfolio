@@ -1,0 +1,43 @@
+.NoticeUlcss{
+    list-style: disc;
+    width: inherit;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 50px;
+}
+#notice > div > div{
+    height: 60px;
+    width: inherit;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 21px;
+    margin-top: 15px;
+
+}
+#notice > div > div > span{
+    font-size: 25px;
+    color: #333333;
+    font-weight: 700;
+}
+#notice > div > div > span:nth-child(2){
+    padding-right: 40px;
+}
+#trand > div{
+    height: inherit;
+}
+.NoticeUlcss > li{
+    width: 455px;
+    line-height: 50px;
+}
+.noticeName{
+    width: 335px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+}
+.noticeFloat{
+    width: 100px;
+    float: left;
+}

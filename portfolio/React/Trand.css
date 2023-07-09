@@ -1,0 +1,47 @@
+/* font-family: 'Noto Sans KR', sans-serif; 100 300 400 500 700 900 */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+/* font-family: 'IBM Plex Sans KR', sans-serif; 100 200 300 400 500 600 700*/
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap");
+
+
+
+
+.instagramName{
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.instagramName > span:nth-of-type(1){
+    width: 145px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #333333;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.instagramName > span:nth-of-type(2){
+    width: 175px;
+    font-size: 15px;
+    color: #333333;
+    font-weight: 500;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.instarDiv1{
+    display: flex;
+}
+.instarDiv1 > span{
+    width: 125px;
+    height: 125px;
+}
+.instarDiv2{
+    display: flex;
+}
+.instarDiv2 > span{
+    width: 125px;
+    height: 125px;
+}
